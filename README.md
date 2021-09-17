@@ -11,3 +11,6 @@ on Twitter data.
 The data for the task consists of a list of tweets
 associated with a given emoji (i.e. label). The dataset includes tweets that contain one and only one emoji,
 of the 20 most frequent emojis. I split the data in training and test data.
+
+I am using BertTokenizer and BertForSequenceClassification for classifying every sequence.
+And for evaluation i am using accuracy per class and F1 score.
